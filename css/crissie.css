@@ -1,0 +1,132 @@
+.royalblue{
+    background: rgb(66,133,244);
+}
+
+html,body
+{
+    font-size: 16px;
+    color: white;
+}
+
+* {
+    font-family: 'Helvetica Neue','Microsoft Yahei UI', 'Microsoft Yahei', Verdana, Simsun, 'Segoe UI', 'Segoe UI Web Regular', 'Segoe UI Symbol',  'BBAlpha Sans', 'S60 Sans', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    /*font-size: 5em;*/
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#avatar{
+    display: inline-block;
+    width: 230px;
+    height: 230px;
+    border: solid white .4em;
+    border-radius: 50%;
+    background: no-repeat url('../img/lisnb.png') left top;
+    margin-left: 20%
+}
+
+.line {
+    border-right: solid white .2em;
+    width: .2em;
+    height: 16em;
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 8%;
+}
+
+#intro{
+    display: inline-block;
+    margin-top: 70px;
+    /*height: 250px;*/
+    position: absolute;
+}
+
+.footnote {
+    font-size: 1em;
+    /*display: inline-block;*/
+    color: #bbb;
+    margin-left: .5em;
+}
+
+.blockspan{
+    display: block;
+    margin-bottom: 1em;
+}
+
+.lab{
+    margin-top: 1em;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.full{
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.nku, .cas{
+    color: black;
+}
+
+.ulogo{
+    width: 250px;
+    height: 250px;
+    margin-top: 18%;
+}
+.nku img{
+    float: right;
+    margin-right: 30%;
+}
+.nkutrophy{
+    /*margin-left: 40%;*/
+    color:black;
+    float: right;
+    margin-right: 30%;
+    text-align: right;
+
+}
+.nkutrophy span{
+    /*margin-left: 40%;*/
+    font-size: 2em;
+    margin-top: 2.1em;
+}
+
+.nkutrophy ul{
+    list-style: none;
+}
+.cas img{
+    margin-left: 30%;
+}
+.castrophy{
+    margin-left: 30%;
+    color: black;
+}
+.castrophy span{
+    font-size: 2em;
+    margin-top: 2em;
+}
+.castrophy ul{
+    margin-left: -2em;
+    list-style: none;
+}
+
+#prac{
+    color: white;
+}
+
+.fa-20{
+    font-size: 20em;
+}
+
