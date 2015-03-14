@@ -145,7 +145,32 @@ a {
 .ft-5{
     font-size: 5em;
 }
+.ft-4{
+    font-size: 4em;
+}
+.ft-3{
+    font-size: 3em;
+}
+.ft-2{
+    font-size: 2em;
+}
+.ft-1{
+    font-size: 1.5em;
+}
 
 #practice-intro{
     text-align: center;
+}
+
+.prac-desc{
+    width: 80%;
+}
+.prac-logo{
+   text-align: center; 
+}
+
+.prac-note:before{
+    content: "*";
+    margin-right: 1em;
+    color: red;
 }
