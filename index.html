@@ -87,7 +87,7 @@
                     </div>
                 </div>
                 <div class="slide">
-                    <div class="intelliessay">
+                    <div id="intelliessay">
                         <div class="full left">
                             <div class="prac-logo">
                                 <img src="./img/mswordmac.png" alt="Microsoft Office Word">
@@ -97,14 +97,14 @@
                             <!-- <span class="ft-5 blockspan prac-title">
                                 intelliEssay
                             </span> -->
-                            <h1 class="ft-4">intelliEssay</h1>
-                            <span class="ft-2 blockspan prac-subtitle">
+                            <h1 class="prac-title">intelliEssay</h1>
+                            <span class="prac-subtitle">
                                 文档格式检查系统
                             </span>
                             <p class="prac-desc">
-                                OpenXML，为Microsoft开发的一种以XML为基础并以ZIP格式压缩的电子文件规范，支持文件、表格、备忘录、幻灯片等文件格式。通过对Microsoft Word文件解压缩分析，获得Word的OpenXML表示，然后判断文档是否符合某种文档格式（如：毕业论文格式）等。
+                                OpenXML，为Microsoft开发的一种以XML为基础并以ZIP格式压缩的电子文件规范，支持文件、表格、备忘录、幻灯片等文件格式。通过对Microsoft Word文件解压缩分析，获得Word的OpenXML表示，然后判断文档是否符合某种文档格式（如：毕业论文格式等），并标记提示给予修改建议。
                             </p>
-                            <span class="blockspan ft-1">相关技术</span>
+                            <span class="prac-tech-title">相关技术</span>
                             <ul class="prac-tech">
                                 <li>C#</li>
                                 <li>OpenXML</li>
@@ -117,13 +117,88 @@
                     </div>
                 </div>
                 <div class="slide">
-                    intelliSeg
+                    <div id="intelliseg">
+                        <div class="full left">
+                            <div class="prac-logo-word">
+                                三月&nbsp;的&nbsp;阴雨<br>飘摇&nbsp;的&nbsp;南方<br>你&nbsp;坐在<br>你&nbsp;空空&nbsp;的&nbsp;米店
+                            </div>
+                        </div>
+                        <div class="full right">
+                            <h1 class="prac-title">intelliSeg</h1>
+                            <span class="prac-subtitle">
+                                中文分词工具
+                            </span>
+                            <p class="prac-desc">
+                                参考了jieba分词(<a class="github" href="https://github.com/fxsjy/jieba" target="_blank"></a>)，使用三种算法分词：
+                                <ol>
+                                    <li>FMM前向最大匹配</li>
+                                    <li>MaxProPath最大概率路径</li>
+                                    <li>HMM&amp;Viterbi基于字的分词</li>
+                                </ol>
+                                语料库使用了搜狗提供的互联网词库：<a href="http://www.sogou.com/labs/dl/w.html" target="_blank">搜狗互联网词库</a>
+                            </p>
+                            <span class="prac-tech-title">相关技术</span>
+                            <ul class="prac-tech">
+                                <li>python</li>
+                                <li>HMM&amp;Viterbi</li>
+                            </ul>
+                            <span class="prac-repo">:</span>
+                            <a href="https://github.com/lisnb/intelliSeg" class="github" target="_blank"></a>
+                            <span class="prac-note">为《自然语言理解》课程设计</span>
+                        </div>
+                    </div>
                 </div>
                 <div class="slide">
-                    Links
+                    <div id="links">
+                        <div class="full left">
+                            <div class="prac-logo">
+                                <img src="./img/dirtylinks.png" alt="黑链">
+                            </div>
+                        </div>
+                        <div class="full right">
+                            <h1 class="prac-title">Links</h1>
+                            <span class="prac-subtitle">基于黑链检测的网站被攻击发现系统</span>
+                            <p class="prac-desc">
+                                黑链是一种黑帽SEO手段，通过将非法广告链接添加到网页中提高自己在搜索引擎结果页中的排名，通常针对的都是政府网站和学校网站。检测网页中是否还有这种链接可以检测网站是否被攻击。
+                            </p>
+                            <span class="prac-tech-title">相关技术</span>
+                            <ul class="prac-tech">
+                                <li>python</li>
+                                <li>线性回归</li>
+                                <li>布隆过滤器</li>
+                                <li>VSM</li>
+                                <li>HTML, CSS, Javascript</li>
+                                <li>等</li>
+                            </ul>
+                            <span class="prac-repo">:</span>
+                            <a href="https://wportal.codeplex.com/" target="_blank">codeplex</a>
+                            <span class="prac-note">本项目在某中心部署使用</span>
+                        </div>
+                    </div>
                 </div>
                 <div class="slide">
-                    CyberGlass
+                    <div id="cyberglass">
+                        <div class="full left">
+                            <div class="prac-logo">
+                                <img src="./img/cyberglass.png" alt="CyberGlass">
+                            </div>
+                        </div>
+                        <div class="full right">
+                            <h1 class="prac-title">Cyberglass</h1>
+                            <span class="prac-subtitle">信息发布系统</span>
+                            <p class="prac-desc">
+                                网站。对信息的CRUD操作，并为下游的APP提供API。
+                            </p>
+                            <span class="prac-tech-title">相关技术</span>
+                            <ul class="prac-tech">
+                                <li>PHP</li>
+                                <li>Yii</li>
+                                <li>MySQL</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                            <span class="prac-note">本项目在某中心部署使用</span>
+                        </div>
+                    </div>
                 </div>
                 <div class="slide">
                     PhysicsMajor

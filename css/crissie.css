@@ -162,15 +162,69 @@ a {
     text-align: center;
 }
 
+.prac-title{
+    font-size: 4em;
+}
+.prac-subtitle{
+    font-size: 2em;
+    display: block;
+    margin-bottom: 1em;
+}
+.prac-tech-title{
+    font-size: 1.5em;
+    display: block;
+    margin-bottom: 1em;
+}
 .prac-desc{
     width: 80%;
 }
 .prac-logo{
-   text-align: center; 
+    margin-top: .67em;
+    text-align: center; 
 }
-
+.prac-logo-word{
+    font-size: 4em;
+    float: right;
+    margin-right: 15%;
+    text-align: right;
+    /*padding-top: 15%;*/
+    margin-top: .67em;
+    width: 60%;
+}
 .prac-note:before{
     content: "*";
     margin-right: 1em;
     color: red;
+}
+.github{
+    padding-left: .3em;
+    padding-right: .3em;
+    color:#00A7E1;
+}
+.github:before{
+    content:"\f09b";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    font-size: 2em;
+}
+.prac-repo:before{
+    content: "\f126";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    font-size: 1.5em;
+    padding-right: .5em;
+}
+.prac-repo{
+    padding-left: 1em;
+    padding-right: .5em;
+}
+.prac-note{
+    display: block;
+    margin-top: .67em;
 }
