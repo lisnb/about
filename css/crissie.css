@@ -228,3 +228,14 @@ a {
     display: block;
     margin-top: .67em;
 }
+
+.prac-nav:before{
+    content: "\f064";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    font-size: 1.5em;
+    padding-right: .5em;
+}
