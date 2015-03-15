@@ -183,7 +183,7 @@ a {
     text-align: center; 
 }
 .prac-logo-word{
-    font-size: 4em;
+    font-size: 3.5em;
     float: right;
     margin-right: 15%;
     text-align: right;
@@ -238,4 +238,41 @@ a {
     text-decoration: inherit;
     font-size: 1.5em;
     padding-right: .5em;
+}
+
+.fd-1{
+    opacity: .9;
+}
+
+.fd-2{
+    opacity: .8;
+}
+
+.fd-3{
+    opacity: .7;
+}
+
+
+.fd-4{
+    opacity: .6;
+}
+
+.fd-5{
+    opacity: .5;
+}
+
+.skill-title{
+    display: block;
+    font-size: 2em;
+}
+
+.skill-sec{
+    margin-left: 3em;
+    /*text-align: center;*/
+}
+
+.skills{
+    /*text-align: center;*/
+    /*height: 100%;*/
+    margin-left: 15%;
 }
