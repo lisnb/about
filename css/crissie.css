@@ -32,7 +32,7 @@ a:hover{
 img{
     transition-property: opacity;
     transition-duration: .45s;
-    opacity: .7;
+    opacity: .76;
 }
 
 img:hover{
@@ -52,15 +52,15 @@ img:hover{
 .line {
     border-right: solid white .2em;
     width: .2em;
-    height: 16em;
+    height: 14em;
     display: inline-block;
     margin-left: 5%;
     margin-right: 8%;
 }
 
-#intro{
+.intro{
     display: inline-block;
-    margin-top: 70px;
+    margin-top: 55px;
     /*height: 250px;*/
     position: absolute;
 }
