@@ -21,6 +21,22 @@ h1 {
 a {
     text-decoration: none;
     color: white;
+    transition-property: color;
+    transition-duration: .4s;
+}
+
+a:hover{
+    color: #00a7e1;
+}
+
+img{
+    transition-property: opacity;
+    transition-duration: .45s;
+    opacity: .7;
+}
+
+img:hover{
+    opacity: 1;
 }
 
 #avatar{
@@ -192,9 +208,14 @@ a {
     width: 60%;
 }
 .prac-note:before{
-    content: "*";
+    content: "\f02b";
     margin-right: 1em;
     color: red;
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
 }
 .github{
     padding-left: .3em;
@@ -266,13 +287,128 @@ a {
     font-size: 2em;
 }
 
-.skill-sec{
-    margin-left: 3em;
+.skill-item{
+    /*margin-left: 3em;*/
     /*text-align: center;*/
+}
+.skill-item li{
+    display: inline-block;
+}
+
+.skill-item li:before{
+    content: "\f046";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    padding-left: 1em;
+    padding-right: .5em;
 }
 
 .skills{
     /*text-align: center;*/
     /*height: 100%;*/
     margin-left: 15%;
+    margin-right:15%;
+}
+
+.interns{
+    margin-left: 15%;
+    margin-right:15%;
+}
+.intern-item{
+    margin-bottom: 2em;
+}
+.intern-title{
+    font-size: 2em;
+
+}
+.intern-date{
+    font-size: 1.5em;
+    margin-left: 1.5em;
+}
+.intern-desc{
+    font-size: 1em;
+    display: block;
+    margin-top: 1em;
+}
+
+.trophys{
+    margin-left: 15%;
+    margin-right:15%;
+}
+
+.trophy-item{
+    margin-bottom: 2em;
+}
+.trophy-title{
+    font-size: 2em;
+    display: block;
+    margin-bottom: 1em;
+}
+.trophy-title:before{
+    content: "\f091";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    font-size: 2em;
+    margin-right: .5em;
+}
+.trophy-desc{
+    /*margin-top: 1.5em;*/
+    margin-left: 6em;
+}
+.papers{
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+.paper-item{
+    margin-bottom: 2.5em;
+}
+.paper-title{
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 1em;
+}
+.paper-title:before{
+    content: "\f1c1";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    font-size: 1.5em;
+    margin-right: .5em;
+}
+.paper-nav{
+    /*display: block;*/
+    margin-left: 2.5em;
+}
+
+.spec{
+    margin-bottom: 2em;
+}
+.spec:before{
+    content: "\f007";
+    font-size: 2em;
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    margin-right: .5em;
+}
+
+.contacts{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.contact-item{
+    font-size: 5em;
+    margin-left: 3em;
 }

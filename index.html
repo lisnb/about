@@ -13,11 +13,11 @@
         $(document).ready(function()
         {
             $('#fullpage').fullpage({
-                anchors: ['intro', 'edu', 'practice','skill','intern'],
-                sectionsColor: ['#4285F4','white','#202020','#0F9D58','#F4B400','#C63D0F', '#1BBC9B', '#4CCCE5', '#202020','#4285F4','#F4B400','#0F9D58','#C63D0F', '#1BBC9B', '#4CCCE5', '#202020'],
+                anchors: ['intro', 'edu', 'practice','skill','intern', 'trophy', 'paper', 'contact'],
+                sectionsColor: ['#4285F4','white','#202020','#0F9D58','#333366','#C63D0F', '#1BBC9B', '#000000', '#202020','#4285F4','#F4B400','#0F9D58','#C63D0F', '#1BBC9B', '#4CCCE5', '#202020'],
                 navigation: true,
                 navigationPosition: 'right',
-                navigationTooltips: ['简介', '教育经历', '项目实践','技能','实习经验'],
+                navigationTooltips: ['简介', '教育经历', '项目实践','技能','实习经验','奖项', '参与发表', '联系我'],
                 scrollingSpeed: 1000
             });
         })
@@ -32,6 +32,7 @@
                     <h1>李希鹏</h1>
                     <span class="footnote">(lisnb)</span>
                     <span class="blockspan lab">中国科学院计算技术研究所，网络数据科学与技术重点实验室</span>
+                    <span class="blockspan lab">lisnb.h<i class="fa fa-at"></i>hotmail.com</span>
                     <!-- <span class="blockspan">
                         lisnb.h@hotmail.com
                     </span>
@@ -169,8 +170,6 @@
                                 <li>HTML, CSS, Javascript</li>
                                 <li>等</li>
                             </ul>
-                            <span class="prac-repo"><a href="https://wportal.codeplex.com/" target="_blank">codeplex</a></span>
-                            
                             <span class="prac-note">独立完成，本项目在某中心部署使用</span>
                         </div>
                     </div>
@@ -297,8 +296,10 @@
                 </div>
             </div>
             <div class="section">
+                
                 <div class="skills">
-                    <div class="left skill-sec">
+                    <h1 class="spec">技能</h1>
+                    <div class="skill-item">
                         <span class="skill-title">语言</span>
                         <ul>
                             <li>python</li>
@@ -311,7 +312,7 @@
                             <li>等</li>
                         </ul>
                     </div>
-                    <div class="left skill-sec">
+                    <div class="skill-item">
                         <span class="skill-title">工具</span>
                         <ul>
                             <li>Git</li>
@@ -323,7 +324,7 @@
                             <li>等</li>
                         </ul>
                     </div>
-                    <div class="left skill-sec">
+                    <div class="skill-item">
                         <span class="skill-title">框架</span>
                         <ul>
                             <li class="fd-2">django</li>
@@ -331,7 +332,7 @@
                             <li>等</li>
                         </ul>
                     </div>
-                    <div class="left skill-sec">
+                    <div class="skill-item">
                         <span class="skill-title">其他</span>
                         <ul>
                             <li>良好的文档阅读能力</li>
@@ -346,25 +347,63 @@
             </div>
             <div class="section">
                 <div class="interns">
+                    <h1 class="spec">实习经历</h1>
                     <div class="intern-item">
                         <span class="intern-title">中国信息安全测评中心</span>
+                        <span class="intern-date">2013/3-2013/5</span>
                         <span class="intern-desc">系统开发</span>
                     </div>
                     <div class="intern-item">
                         <span class="intern-title">天津天爱智航科技有限公司</span>
+                        <span class="intern-date">2012/3 – 2012/4</span>
                         <span class="intern-desc">系统开发</span>
                     </div>
-                    <div class="intern-item fd-2">
+                    <div class="intern-item fd-3">
                         <span class="intern-title">新东方培训学校（天津）</span>
+                        <span class="intern-date">2011/10 – 2012/5</span>
                         <span class="intern-desc">兼职教师</span>
                     </div>
                 </div>
             </div>
             <div class="section">
-                奖项
+                <div class="trophys">
+                    <h1 class="spec">获奖</h1>
+                    <div class="trophy-item">
+                        <span class="trophy-title">TREC 2014 Web Track (Automatic) 第一名</span>
+                        <span class="trophy-desc">
+                            TREC ( Text REtrieval Conference, WIKI: <a href="https://en.wikipedia.org/wiki/Text_Retrieval_Conference" target="_blank">TREC</a> ) 是由NIST举办的文本检索会议, Teamwork
+                        </span>
+                    </div>
+                    <div class="trophy-item">
+                        <span class="trophy-title">阿里巴巴大数据竞赛TOP100</span>
+                        <span class="trophy-desc">
+                            Teamwork
+                        </span>
+                    </div>
+                </div>
             </div>
             <div class="section">
-                参与发表
+                <div class="papers">
+                    <h1 class="spec">参与发表</h1>
+                    <div class="paper-item">
+                        <span class="paper-title">Xue, Y., Yu, X., Guan, F., Li, X., Du, M., Liu, Y., &amp; Cheng, X. ICTNET at Web Track TREC2014.</span>
+                        <span class="paper-nav"><a href="http://trec.nist.gov/pubs/trec23/papers/pro-ICTNET_web.pdf" target="_blank">ICTNET at Web Track TREC2014</a></span>
+                    </div>
+                    <div class="paper-item">
+                        <span class="paper-title">
+                            范意兴,郭岩,李希鹏,赵岭l,俞晓明,程学旗. 一种基于网页块特征的多级网页聚类方法[J]. 山东大学学报(理学版)
+                        </span>
+                        <span class="paper-nav"><a href="http://www.cnki.net/KCMS/detail/detail.aspx?recid=&filename=SDDX20141125005&dbname=CAPJ2014&dbcode=CAPJ&id=&file=SDDX20141125005&urlid=&yx=&uid=WEEvREcwSlJHSldRa1FiOSs0bVpJSk5nak9hM3NvT2pHRE9INTdrN0YwTzNDdGhhdldFTmtycVU4Rnc0Nnp3MzJRPT0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4IQMovwHtwkF4VYPoHbKxJw!!&v=MzI3MDIwPU5pblBkckc0SDlYTnJvMUFaT3NLWXc5TXptUm42ajU3VDNmbHFXTTBDTEw3UjdxZVl1WnNGeS9sVzdySUlG" target="_blank">知网</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="contacts">
+                    <a href="http://weibo.com/lisnb" target="_blank" class="contact-item"><i class="fa fa-weibo"></i></a>
+                    <a href="https://github.com/lisnb" target="_blank" class="contact-item"><i class="fa fa-github"></i></a>
+                    <a href="mailto:lisnb.h@hotmail.com" class="contact-item"><i class="fa fa-at"></i></a>
+                    <a href="http://lixipeng.me" target="_blank" class="contact-item"><i class="fa fa-compass"></i></a>
+                </div>
             </div>
         </div>
     </body>
