@@ -345,7 +345,7 @@ img:hover{
 .trophy-title{
     font-size: 2em;
     display: block;
-    margin-bottom: 1em;
+    margin-bottom: .8em;
 }
 .trophy-title:before{
     content: "\f091";
