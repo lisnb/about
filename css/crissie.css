@@ -83,8 +83,9 @@ img:hover{
 .left{
     float: left;
 }
-.right{
+.fright{
     float: right;
+    padding-right: 5%;
 }
 .full{
     height: 100%;
