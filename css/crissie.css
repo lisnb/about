@@ -13,7 +13,7 @@ html,body
 }
 
 h1 {
-    text-align: center;
+    /*text-align: center;*/
     /*font-size: 5em;*/
     display: inline-block;
 }
@@ -104,13 +104,13 @@ img:hover{
 }
 .nku img{
     float: right;
-    margin-right: 30%;
+    margin-right: 20%;
 }
 .nkutrophy{
     /*margin-left: 40%;*/
     color:black;
     float: right;
-    margin-right: 30%;
+    margin-right: 20%;
     text-align: right;
 
 }
@@ -124,10 +124,10 @@ img:hover{
     list-style: none;
 }
 .cas img{
-    margin-left: 30%;
+    margin-left: 18%;
 }
 .castrophy{
-    margin-left: 30%;
+    margin-left: 18%;
     color: black;
 }
 .castrophy span{
@@ -326,8 +326,9 @@ img:hover{
 
 }
 .intern-date{
-    font-size: 1.5em;
-    margin-left: 1.5em;
+    display: block;
+    font-size: 1.2em;
+    /*margin-left: 1.5em;*/
 }
 .intern-desc{
     font-size: 1em;
