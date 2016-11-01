@@ -1,3 +1,13 @@
+/**
+* @Author: lisnb
+* @Date:   2016-10-31T23:54:46+08:00
+* @Email:  lisnb.h@hotmail.com
+* @Last modified by:   lisnb
+* @Last modified time: 2016-11-01T00:25:19+08:00
+*/
+
+
+
 .royalblue{
     background: rgb(66,133,244);
 }
@@ -197,7 +207,7 @@ img:hover{
 }
 .prac-logo{
     margin-top: .67em;
-    text-align: center; 
+    text-align: center;
 }
 .prac-logo-word{
     font-size: 3.5em;
@@ -318,23 +328,36 @@ img:hover{
     margin-left: 15%;
     margin-right:15%;
 }
-.intern-item{
+.intern-item, .job-item{
     margin-bottom: 2em;
 }
-.intern-title{
+.intern-title, .job-title{
     font-size: 2em;
 
 }
-.intern-date{
+.intern-date, .job-date{
     display: block;
     font-size: 1.2em;
     /*margin-left: 1.5em;*/
 }
-.intern-desc{
+.intern-desc, .job-desc{
     font-size: 1em;
     display: block;
     margin-top: 1em;
 }
+
+.work-experience{
+  margin-left:10%;
+  margin-right:10%;
+}
+.job-logo {
+  display: inline-block;
+}
+
+.job-d {
+  display: inline-block;
+}
+
 
 .trophys{
     margin-left: 15%;
@@ -366,7 +389,7 @@ img:hover{
 .papers{
     margin-left: 15%;
     margin-right: 15%;
-    
+
 }
 .paper-item{
     margin-bottom: 2.5em;
